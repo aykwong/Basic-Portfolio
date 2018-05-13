@@ -20,13 +20,14 @@
     </header>
 
     <section>
-        <div class="container" id="contactHeader">
+        <div class="container" id="contentHeader">
             <h2>Contact</h2>
             <form action="/action_page.php">
                 <p>Name</p>
-                <input type="text" name="firstname" value="John Smith">
+                <input type="text" name="firstname" value="John Smith" onfocus="this.value=''">
+                <!--Onfocus clears the placeholder text on click-->
                 <p>Email</p>
-                <input type="text" name="lastname" value="example@gmail.com">
+                <input type="text" name="lastname" value="example@gmail.com" onfocus="this.value=''">
                 <p>Message</p>
                 <textarea name="message"></textarea>
                 <input type="submit" value="Submit">
