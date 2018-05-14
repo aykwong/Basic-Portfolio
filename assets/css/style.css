@@ -35,7 +35,6 @@ h1 {
 
 /*line-height used to adjust the top-bottom spacing of the navigation buttons due to the font size of h1 in the same inline*/
 .navigation {
-    display: inline-block;
     float: right;
     line-height: 88px;
 }
