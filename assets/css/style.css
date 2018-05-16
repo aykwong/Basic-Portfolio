@@ -35,7 +35,6 @@ h1 {
 
 /*line-height used to adjust the top-bottom spacing of the navigation buttons due to the font size of h1 in the same inline*/
 .navigation {
-    display: inline-block;
     float: right;
     line-height: 88px;
 }
@@ -43,7 +42,6 @@ h1 {
 .navigation a {
     text-decoration: none;
     color: #777777;
-    font-weight: 500;
 }
 
 /*nth-child applies css on #-child following the parent*/
@@ -55,7 +53,7 @@ h1 {
 
 .navigation a:nth-child(2) {
     padding-left: 15px;
-    padding-right: 13px;
+    padding-right: 15px;
     border-left: 1px solid #dddddd;
 }
 
