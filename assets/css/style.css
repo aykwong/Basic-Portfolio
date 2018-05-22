@@ -102,7 +102,7 @@ h2 {
 
 /*margin-bottom pulls the container back because of line-height adjustment*/
 .bio p {
-    margin: 20px;
+    margin: 25px;
     margin-bottom: 0px;
     line-height: 200%;
 }
@@ -139,11 +139,13 @@ form p {
 /*Targeting the input boxes to pull to width of container less margins*/
 input[type=text] {
     width: 100%;
+    box-sizing: border-box;
 }
 
 /*Targeting the message area*/
 textarea {
     width: 100%;
+    box-sizing: border-box;
     height: 175px;
 }
 
